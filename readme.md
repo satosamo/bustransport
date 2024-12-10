@@ -4,12 +4,12 @@
 
 - - -
 
-# Návrh databázovej schémy
+### Návrh databázovej schémy
 
 Úloha sa rieši v skupinách s 1-3 členmi.
 Odovzdať do **12. 12. 2024** 23:59 e-mailom na `jan.mazak@fmph.uniba.sk` (jeden za celú skupinu, členovia skupiny do kópie).
 
-# Popis modelovaného sveta
+### Popis modelovaného sveta
 
 Predávame cestovné lístky na diaľkové autobusové linky. Chceme evidovať aj v minulosti predané lístky, nielen aktuálne platné.
 
@@ -19,14 +19,14 @@ Lístok má meno cestujúceho, odkiaľ, kam, čas odchodu a príchodu, ktorá li
 
 Základná cena lístka bude počítaná funkciou (do ktorej vstupuje dĺžka cesty atď.), v databáze ju neevidujeme. Individuálne sa uplatňuje percentuálna zľava podľa doterajších km daného cestujúceho (zadané tabuľkou s intervalmi, tú v databáze chceme). Predpokladáme, že cestujúci majú doklad totožnosti, ktorý ich jednoznačne identifikuje.
 
-# Úlohy
+### Úlohy
 
 1. Vytvorte entitno-relačný model: entity, ich atribúty a primárne kľúče, vzťahy medzi entitami, entitno-relačný diagram.  (6 b)
 
 2. Vytvorte "matematický" relačný model (bez prepisu do SQL): atribúty, relácie, funkčné závislosti;
 k tomu bezstratová dekompozícia do BCNF zachovávajúca všetky funkčné závislosti (jej vlastnosti treba zdôvodniť).  (6 b)
 
-# Poznámky
+### Poznámky
 
 Ak potrebujete evidovať historické dáta pre situáciu, kde sa čosi mení, môže byť vhodné nahradiť odkazy cez cudzie kľúče fixnou kópiou údajov.
 Príklad: v momente, keď predám lístok, zapíšem do tabuľky s lístkami jeho cenu (príp. aj s popisom, ako bola vypočítaná).
